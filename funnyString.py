@@ -10,3 +10,9 @@ def funnyString(s):
         return "Funny"
     else:
         return "Not Funny"
+
+
+# Test Cases
+print(funnyString("acxz"))  # Output: Funny
+print(funnyString("bcxz"))  # Output: Not Funny
+print(funnyString("ab"))  # Output: Funny (กรณีขอบเขต)
