@@ -18,3 +18,13 @@ def alternate(s):
                 max_length = max(max_length, len(temp))
 
     return max_length
+
+
+# Test Cases
+print(alternate("beabeefeab"))  # Output: 5
+print(alternate("aaa"))  # Output: 0
+print(alternate("ababababab"))  # Output: 10
+print(alternate("abcabcabc"))  # Output: 6
+print(alternate("zzzzz"))  # Output: 0
+print(alternate("abababab"))  # Output: 8
+print(alternate("aabbcc"))  # Output: 0
