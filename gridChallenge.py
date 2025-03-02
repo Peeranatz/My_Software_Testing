@@ -8,3 +8,12 @@ def gridChallenge(grid):
                 return "NO"
 
     return "YES"
+
+
+# Test Cases
+print(gridChallenge(["abc", "ade", "efg"]))  # Output: "YES"
+print(gridChallenge(["abc", "def", "ade"]))  # Output: "NO"
+print(gridChallenge(["a"]))  # Output: "YES"
+print(gridChallenge(["abcd", "efgh", "ijkl", "mnop"]))  # Output: "YES"
+print(gridChallenge(["aab", "bbc", "ccd"]))  # Output: "YES"
+print(gridChallenge(["abc", "def", "ghi"]))  # Output: "YES"
