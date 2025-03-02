@@ -17,3 +17,5 @@ print(gridChallenge(["a"]))  # Output: "YES"
 print(gridChallenge(["abcd", "efgh", "ijkl", "mnop"]))  # Output: "YES"
 print(gridChallenge(["aab", "bbc", "ccd"]))  # Output: "YES"
 print(gridChallenge(["abc", "def", "ghi"]))  # Output: "YES"
+print(gridChallenge(["a"]))  # Output: "YES" (กรณีกริดขนาด 1x1)
+print(gridChallenge(["aab", "bbc", "ccd"]))  # Output: "YES" (กรณีกริดที่มีตัวอักษรซ้ำ)
