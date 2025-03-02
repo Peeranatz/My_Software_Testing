@@ -28,3 +28,5 @@ print(alternate("abcabcabc"))  # Output: 6
 print(alternate("zzzzz"))  # Output: 0
 print(alternate("abababab"))  # Output: 8
 print(alternate("aabbcc"))  # Output: 0
+print(alternate("a"))  # Output: 0 (กรณีสตริงมีตัวอักษรเดียว)
+print(alternate("ababab"))  # Output: 6 (กรณีสตริงมีตัวอักษรสองตัวสลับกัน)
