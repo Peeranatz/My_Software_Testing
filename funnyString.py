@@ -16,3 +16,5 @@ def funnyString(s):
 print(funnyString("acxz"))  # Output: Funny
 print(funnyString("bcxz"))  # Output: Not Funny
 print(funnyString("ab"))  # Output: Funny (กรณีขอบเขต)
+print(funnyString("a" * 10000))  # Output: "Funny"
+print(funnyString("a"))  # Output: "Funny"
