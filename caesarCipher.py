@@ -9,3 +9,11 @@ def caesarCipher(s, k):
         else:
             result.append(char)
     return "".join(result)
+
+
+# Test Cases
+print(caesarCipher("middle-Outz", 2))  # Output: "okffng-Qwvb"
+print(caesarCipher("abcXYZ", 26))  # Output: "abcXYZ"
+print(caesarCipher("Hello-World", 0))  # Output: "Hello-World"
+print(caesarCipher("123!@#", 10))  # Output: "123!@#"
+print(caesarCipher("AbCdEfG", 4))  # Output: "EfGhIjK"
